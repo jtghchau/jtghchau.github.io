@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeremy's Website</title>
+    <link rel="stylesheet" href="../resources/css/style.css"">
+    <script src="https://kit.fontawesome.com/82473096d7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+            <a href="home.html">HOME</a>
+            <a href="hobbies.html">HOBBIES</a></li>
+            <a href="projects.html">PROJECT</a></li>
+            <a href="resume.html">RESUME</a></li>
+            <a href="home.html" class="logo"><img src="../resources/img/logo.png" alt="gengar"></a>
+    </nav>
+
+    <main>
+    <h1>Projects</h1>
+    <div class="projects-container">
+        <div class="carousel">
+            <div class="project">
+                <img src="../resources/img/img5.jpeg" alt="Candy Land Game Development">
+                <p><strong>Candy Land Game Development:</strong> Developed a Candy Land game in C++ using the aspects of Object Oriented Programming, the game included all of the mechanics including movement and card drawing..</p>
+            </div>
+            <div class="project">
+                <img src="../resources/img/img6.jpg" alt="Restaurant Review Data Handler">
+                <p><strong>Restaurant Review Data Handler:</strong> Developed data structures in C++ to manage restaurant reviews. Developed a fully functioning menu that allows you to retrieve, add, and delete reviews using hash tables</p>
+            </div>
+            <div class="project">
+                <img src="../resources/img/img7.jpeg" alt="Text Classification">
+                <p><strong>Text Classification:</strong> Using BERT and distilBERT pretrained NLP models to analyze its accuracy with different datasets to find problems in its training that causes it to misunderstand inputs.   </p>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <a href="https://x.com/jtghchau" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="https://github.com/jtghchau" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+        </a>
+    </footer>
+
+    <script src="../resources/js/script.js"></script>
+</body>
+</html>
